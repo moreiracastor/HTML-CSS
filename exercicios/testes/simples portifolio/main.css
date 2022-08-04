@@ -1,0 +1,45 @@
+body {
+    color: green;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    align-items: center;
+    padding: 16px;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+header img {
+    width: 150px;
+    border-radius: 50%;
+    border:3px solid green;
+}
+.centro {
+    text-align: center;
+}
+footer img {
+    width: 25px;
+    border-radius: 50%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer a {
+   margin:  20px;
+   text-align: center;
+}
+footer p {
+    margin-top: 2px;
+}
+.conteiner {
+    padding: 0px 50px;
+}
+nav a:hover {
+    color: red;
+}

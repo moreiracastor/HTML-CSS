@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+    tudo q em HTML nós colocarmos com id será em CSS como #
+    tudo q em a HTML é class em CSS é ponto
+*/
+
+body {
+    background-color: rgb(210, 255, 220);
+    font-family: sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    font-size: 40px;
+   
+}
+
+h1 {
+    color: rgb(20, 20, 20);
+}
+h2 {
+    color: rgb(20, 20, 20);
+}
+
+.basico {
+    color: rgb(59, 116, 22);
+   
+    width: 10em;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(202, 185, 30);
+    
+}
+.avançado {
+    color: rgb(116, 22, 22);
+    
+}
+
+.destaque {
+    background-color: #cab91e57;
+}
