@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color:lightsteelblue ;
     font-family: sans-serif;
@@ -84,4 +85,92 @@ footer {
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
+=======
+body {
+    background-color:lightsteelblue ;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 10px outset lightslategray;
+
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 10px outset lightcoral;
+}
+
+nav {
+    background-color: lightcyan;
+    padding: 5px;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.062);
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 4px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+}
+
+nav > a:hover {
+    color: gray;
+}
+
+nav > a:active {
+    color: red;
+}
+
+.assuntos {
+    background-color: lightgray;
+    padding: 4px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px outset blueviolet;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.062);
+}
+
+.noticias {
+    background-color: lightgray;
+    padding: 4px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px outset rgb(82, 84, 206);
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.062);
+}
+
+article {
+    background-color: lightgray;
+    padding: 4px;
+}
+
+article > aside {
+    background-color: rgb(192, 189, 189);
+    text-align: right;
+}
+ 
+footer {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-weight: bolder;
+    text-align: center;
+}
+#fora {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+>>>>>>> efcee66095d81633b6a1295c194ecbca88c6efa6
 }

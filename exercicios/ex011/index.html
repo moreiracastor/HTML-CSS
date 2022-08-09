@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -30,4 +31,38 @@
     
 
 </body>
+=======
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+    <style>
+        body {
+            background-color: rgb(224, 219, 219);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uma imagem que se adapta ao tamamho da sua tela</h1>
+    <p>Abra esse site em varios dispositvos diferentes ou aumente e diminua o navagado</p>
+
+    <picture>
+        <source media="(min-width: 750px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 350px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="Imagens pequena">
+    </picture>
+
+    <h2>Colocando audio</h2>
+        <p>Adiconando uma musica e tocando ela, usando o tag audio</p>
+        <!--Jeito mais fácil de reprdouzir um .mp3 <audio src="medias/dangerous-toys - SefChol.mp3" controls></audio>-->
+        <audio preload="metadata" controls autoplay loop >
+            <source src="medias/dangerous-toys - SefChol.mp3" type="audio/mpeg">
+            <p>Infelizmente o seu navagador não tem suporte para audio <a href="medias/dangerous-toys - SefChol.mp3"> baixe aqui</a> o audio</p>
+        </audio>
+    
+
+</body>
+>>>>>>> efcee66095d81633b6a1295c194ecbca88c6efa6
 </html>

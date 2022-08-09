@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* Medidas absolutas; cm, mm, in(polegada), px, pt(ponto), pc(paica)
@@ -26,4 +27,34 @@
  }
  h2 {
    font: bold 2em serif;
+=======
+ body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Medidas absolutas; cm, mm, in(polegada), px, pt(ponto), pc(paica)
+    Medidas relativas; em, ex, rem, vw, wh.
+    16px = 1em %*/
+   /*font-size: 1em ;
+   font-weight: ;
+   font-style: ;
+   text-decoration: ;*/
+   /*lighter normal bold bolder, valores em numeros; 100 a 900*/
+ }
+ h1 {
+   
+   /*shothand 
+
+   -font-style- font-weight - font-size - font -family
+   font-size: 3em;
+   font-family: sans-serif;
+   font-style: italic;
+   font-weight: bolder;
+   =
+   font: italic bolder 3em sans-serif;
+   */
+   font: italic bolder 3em sans-serif;
+
+ }
+ h2 {
+   font: bold 2em serif;
+>>>>>>> efcee66095d81633b6a1295c194ecbca88c6efa6
  }
