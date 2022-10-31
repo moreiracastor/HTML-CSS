@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, #84E1AD, #1A5C38);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header > nav {
+    text-align: left;
+}
+
+header > nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header > nav > a:hover {
+    color: rgb(214, 214, 214);
+}
+
+h1 { 
+    font-family: sans-serif;
+}
+
+#principal {
+    width: 700px;
+    height: 2000px;
+    background-color: white;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.titulo-principal {
+    background-image: linear-gradient(to left, white, rgba(0, 128, 0, 0.253));
+    color: #1A5C38;
+}
+
+.especial {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.especial::after {
+    content: '📎';
+}
+
+.central {
+    margin-left: 145px;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#video {
+    width: 700px;
+    border: 10px outset black;
+    margin: 10;
+}
+
+section {
+    background-color: #84E1AD;
+}
