@@ -7,49 +7,87 @@
     <title>Tabelas</title>
 
     <style>
-       table {
-            border-collapse: collapse;
+
+        body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        th {
+        table {
+            width: 500px;
+            height: 200px;
+        }
+
+        #especial {
+            border-collapse: collapse;
+        }
+
+        td {
             border: 1px solid black;
-            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Tabela com mesclagem em linha</h1>
 
-    <table> 
-        <tr>
-            <th>1</th>
-            <th>2</th>
-            <th rowspan="2">3</th>
-            <th>4</th>
-       </tr>
+    <h1>Tabela com mesclagem númerica</h1>
 
+    <table>
         <tr>
-            <th>5</th>
-            <th>6</th>
-            <th>7</th>
-            <th>8</th>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
         </tr>
 
         <tr>
-            <th>10</th>
-            <th>9</th>
-            <th>11</th>
-            <th>12</th>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
         </tr>
 
         <tr>
-            <th>13</th>
-            <th>14</th>
-            <th>15</th>
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
         </tr>
 
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
 
+    <h1>Tabela com mesclagem alfabética</h1>
+
+    <table id="especial">
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
+        </tr>
     </table>
 </body>
 </html>
